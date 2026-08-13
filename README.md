@@ -1,7 +1,7 @@
 # SaaS Subscription Business Requirements & Process Mapping
 
 **Business Analyst portfolio project — Adham AlHers**
-[Portfolio home](#) · [LinkedIn](https://www.linkedin.com/in/adhamalhers/)
+[Portfolio home](https://app.notion.com/p/Data-Business-Analyst-Portfolio-Adham-AlHers-3b63ac1ddec780c1b2d6c221c6bcbb59?source=copy_link) · [LinkedIn](https://www.linkedin.com/in/adhamalhers/)
 
 ## Problem statement
 A SaaS company (CloudSuite, fictional for this exercise) wants to launch a new self-serve tiered pricing plan and needs a BA to define requirements, map the new billing process, and flag risks before development starts.
@@ -18,8 +18,8 @@ Word/docx for the BRD and user stories · Excel for the RACI matrix and risk log
 ## Repository structure
 ```
 ├── docs/
-│   ├── BRD_SaaS_Pricing.docx/.pdf     # Business Requirements Document
-│   └── user_stories.docx/.pdf         # 7 user stories with acceptance criteria
+│   ├── BRD_SaaS_Pricing.pdf     # Business Requirements Document
+│   └── user_stories.pdf         # 7 user stories with acceptance criteria
 ├── excel/
 │   └── RACI_Risk_Log.xlsx             # RACI matrix + 7-item risk log, both formatted
 └── diagrams/
@@ -28,10 +28,10 @@ Word/docx for the BRD and user stories · Excel for the RACI matrix and risk log
 ```
 
 ## Step-by-step approach
-1. **BRD first** — `docs/BRD_SaaS_Pricing.docx` defines stakeholders, current-state pain points, the proposed 3-tier pricing structure (Starter/Growth/Scale), explicit in-scope/out-of-scope boundaries, and success metrics — all before any process or engineering design work.
-2. **User stories** — `docs/user_stories.docx` translates the BRD into 7 engineering-ready stories in standard format, each with concrete, testable acceptance criteria (not vague — e.g. "unlocked within 60 seconds of confirmation").
+1. **BRD first** — [BRD SaaS Pricing](docs/BRD_SaaS_Pricing.pdf) defines stakeholders, current-state pain points, the proposed 3-tier pricing structure (Starter/Growth/Scale), explicit in-scope/out-of-scope boundaries, and success metrics — all before any process or engineering design work.
+2. **User stories** — [User Stories](docs/user_stories.pdf) translates the BRD into 7 engineering-ready stories in standard format, each with concrete, testable acceptance criteria (not vague — e.g. "unlocked within 60 seconds of confirmation").
 3. **Process maps** — [Current state process map](/diagrams/process_current_state.png) and [Future state process map](/diagrams/process_future_state.png) are swimlane diagrams (Customer / Sales-Support / Finance / Billing System) showing exactly how the process changes and where the current bottleneck sits.
-4. **RACI matrix** — `excel/RACI_Risk_Log.xlsx` (sheet 1) assigns Responsible/Accountable/Consulted/Informed across 10 rollout tasks and 6 roles (Product, Engineering, Finance, Support, Sales, BA).
+4. **RACI matrix** — [RACI Risk Log](excel/RACI_Risk_Log.xlsx) (sheet 1) assigns Responsible/Accountable/Consulted/Informed across 10 rollout tasks and 6 roles (Product, Engineering, Finance, Support, Sales, BA).
 5. **Risk log** — same workbook (sheet 2), 7 identified risks with likelihood, impact, mitigation, and owner — including the proration edge cases and EUR/GBP/USD currency handling risks named in the project brief.
 
 ## Key insight
